@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-function App() {
+function App2() {
   const [todo, setTodo] = useState([]);
   // const todoInput = useRef(null);
   const [input,setInput]=useState("")
@@ -46,4 +46,4 @@ function App() {
   );
 }
 
-export default App;
+export default App2;
