@@ -1,3 +1,4 @@
+import BookingSystem from "./Booking_System/BookingSystem";
 import { Pagination } from "./Pagination/Pagination";
 import StopWatch from "./StopWatch/StopWatch";
 // import Todo from "./Todo/Todo";
@@ -17,10 +18,11 @@ const App = () => {
         ...............................................................................................................
       </p>
       <StopWatch />
-
       <p>
         ...............................................................................................................
       </p>
+      <BookingSystem />
+
       <p>
         ...............................................................................................................
       </p>

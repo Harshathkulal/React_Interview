@@ -4,7 +4,6 @@ function Todo2() {
   const [todo, setTodo] = useState([]);
   // const todoInput = useRef(null);
   const [input, setInput] = useState("");
-  console.log(todo);
 
   const addtodo = (e) => {
     e.preventDefault();
@@ -37,7 +36,7 @@ function Todo2() {
         console.error(error);
       } finally {
         console.log("Fetch operation completed");
-      } // End of try-catch block and finally block.
+      } 
     }
     fetchData();
   }, []);

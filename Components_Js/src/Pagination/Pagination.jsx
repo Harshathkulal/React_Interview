@@ -50,8 +50,7 @@ export const Pagination2 = () => {
 export const Pagination = () => {
   const Total_Pages = 10;
   const pages = Array.from({ length: Total_Pages }, (_, index) => index + 1);
-  const pages1 = [...Array(Total_Pages)].map((_, index) => index + 1);
-  console.log(pages1);
+
   const [activePage, setActivePage] = useState(1);
 
   const Next = () => {
