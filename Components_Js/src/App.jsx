@@ -1,3 +1,4 @@
+import BackgroundChanger from "./BackgroundChanger/BackgroundChanger";
 import BookingSystem from "./Booking_System/BookingSystem";
 import { Pagination } from "./Pagination/Pagination";
 import StopWatch from "./StopWatch/StopWatch";
@@ -27,6 +28,10 @@ const App = () => {
         ...............................................................................................................
       </p>
       <Pagination />
+      <p>
+        ...............................................................................................................
+      </p>
+      <BackgroundChanger/>
     </div>
   );
 };
